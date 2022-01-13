@@ -2,7 +2,9 @@
 
 ## Start the project
 
-### clone repo `git clone [repo url](https://github.com/dianalemen/fp-hometask.git)`
+### clone repo
+
+Run `git clone` [repo url](https://github.com/dianalemen/fp-hometask.git)
 
 In the project directory, run:
 
