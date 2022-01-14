@@ -64,6 +64,8 @@ In the future, we will have a lot of data in the table, so it would be hard to f
   - If **Without posts** and **More than 100 posts** filters are active, Sweden is typed in `Search` input and you select **desc** sorting the result will be MIKE, Luke123, Lora123.
   ![If both filters are selected and country is typed in Search and sorting is selected](./images/third-case.png)
 
+3) Search is not case sensitive. All of the options are valid: SWEDEN, sweden and Sweden.
+
 Remember that main idea is to follow functional programming principles, such as: 
 immutability, avoiding side effects, using pure function, no shared state, using higher order component, curring, composition.
 
