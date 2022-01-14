@@ -7,9 +7,13 @@
         padding: 16.5px;
         border: 1px solid gray;
         border-radius: 5px;
+        width: max-content;
+        display: flex;
+        cursor: pointer;
     }
 
     .group {
+        top: 57px;
         background-color: white;
         position: absolute;
         display: none;

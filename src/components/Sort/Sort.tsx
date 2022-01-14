@@ -27,13 +27,12 @@ export function Sort(props: SortProps) {
 
   return (
     <FormControl className={styles.control} component="fieldset">
-      <FormLabel className={styles.label} component="legend">
+      <FormLabel className={styles.label}>
         Sort by payments
       </FormLabel>
       <RadioGroup
         className={styles.group}
         aria-label="sorting"
-        defaultValue="desc"
         name="radio-buttons-group"
         onChange={(e) => handleChange(e.target.value)}
       >

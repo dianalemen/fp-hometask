@@ -4,6 +4,8 @@
     cursor: pointer;
 
     .title {
+        width: max-content;
+        display: flex;
         padding: 18.5px;
         border: 1px solid gray;
         border-radius: 5px;

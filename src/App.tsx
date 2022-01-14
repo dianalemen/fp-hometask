@@ -10,6 +10,7 @@ import { getImages, getUsers, getAccounts } from './mocks/api';
 import styles from './App.module.scss';
 
 import type { Row } from "./components/Table";
+import type { Image, User, Account } from "../types";
 
 import rows from './mocks/rows.json';
 
@@ -22,7 +23,8 @@ function App() {
   useEffect(() => {
     // fetching data from API
     Promise.all([getImages(), getUsers(), getAccounts()]).then(
-      ([images, users, accounts]) => console.log(images, users, accounts)
+      ([images, users, accounts]: [Array<Image>, Array<User>, Array<Account>]) =>
+        console.log(images, users, accounts)
     );
   }, [])
 
