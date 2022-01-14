@@ -61,14 +61,18 @@ In the future, we will have a lot of data in the table, so it would be hard to f
   For example, if both of them are chosen and Sweden is typed in `Search` input the result will be Lora123, Luke123 and MIKE.
   ![If both filters are selected and country is typed in Search](./images/second-case.png)
 
-  - If **Without posts** and **More than 100 posts** filters are active, Sweden is typed in `Search` input and you select **desc** sorting the result will be MIKE, Luke123, Lora123
-  ![If both filters are selected and country is typed in Search and sorting is selected](./images/second-case.png)
+  - If **Without posts** and **More than 100 posts** filters are active, Sweden is typed in `Search` input and you select **desc** sorting the result will be MIKE, Luke123, Lora123.
+  ![If both filters are selected and country is typed in Search and sorting is selected](./images/third-case.png)
 
 Remember that main idea is to follow functional programming principles, such as: 
-immutability, avoid side effects, use pure function, no shared state, use higher order component, curring, composition.
+immutability, avoiding side effects, using pure function, no shared state, using higher order component, curring, composition.
 
 **Evaluation Criteria**
-[2]. All tasks are implemented partially, or one task are not implemented at all.  
+
+[2]. All tasks are implemented partially, or one task are not implemented at all.
+
 [3]. Two tasks have major issues or functional principles are not followed at all.
-[4]. One of the tasks does not have a major part of its implementation.  
+
+[4]. One of the tasks does not have a major part of its implementation.
+
 [5]. All tasks are implemented to a full extend and functional principles are followed.
