@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fp-hometask/static/css/main.d442c75e.css",
+    "main.js": "/fp-hometask/static/js/main.07d883e1.js",
+    "static/js/787.81935d04.chunk.js": "/fp-hometask/static/js/787.81935d04.chunk.js",
+    "index.html": "/fp-hometask/index.html",
+    "main.d442c75e.css.map": "/fp-hometask/static/css/main.d442c75e.css.map",
+    "main.07d883e1.js.map": "/fp-hometask/static/js/main.07d883e1.js.map",
+    "787.81935d04.chunk.js.map": "/fp-hometask/static/js/787.81935d04.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d442c75e.css",
+    "static/js/main.07d883e1.js"
+  ]
+}
